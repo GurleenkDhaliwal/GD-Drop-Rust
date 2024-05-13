@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/Users/gurleendhaliwal/Desktop/Embedded-Rust/GD-Drop /target/thumbv7em-none-eabihf/debug/build/nrf52833-pac-6e44937316fcec2f/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs

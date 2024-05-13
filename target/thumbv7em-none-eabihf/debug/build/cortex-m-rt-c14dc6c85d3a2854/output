@@ -1,0 +1,6 @@
+cargo:rustc-cfg=cortex_m
+cargo:rustc-cfg=armv7m
+cargo:rustc-cfg=has_fpu
+cargo:rustc-link-search=/Users/gurleendhaliwal/Desktop/Embedded-Rust/GD-Drop /target/thumbv7em-none-eabihf/debug/build/cortex-m-rt-c14dc6c85d3a2854/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in
